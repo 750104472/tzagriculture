@@ -19,7 +19,8 @@ def sendemail(report):
 def main():
     CreateDir.create_dir(REPORT_DIR)
     html_name = CreateDir.generate_filename('html')
-    args = ['-v','--reruns', '1', 'cases/test_inquiry.py','--html=report/' + html_name,'--self-contained-html']
+    # args = ['-v','--reruns', '1', 'cases','--html=report/' + html_name,'--self-contained-html']
+    args = ['-v', 'cases', '--html=report/' + html_name, '--self-contained-html']
     pytest.main(args)
     sendemail('%s/%s'%(REPORT_DIR,html_name))
 

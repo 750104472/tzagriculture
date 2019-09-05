@@ -781,3 +781,504 @@ assert True == False
   -True
   +False
 Thu, 05 Sep 2019 15:33:29-common.record_log-conftest.py-[line:76]-INFO-[日志信息]: ------------close browser------------
+Thu, 05 Sep 2019 15:54:45-common.record_log-conftest.py-[line:69]-INFO-[日志信息]: ------------open browser------------
+Thu, 05 Sep 2019 15:54:48-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 15:54:48-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 15:54:48-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 15:54:48-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 15:54:48-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 15:54:50-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=49.0
+Thu, 05 Sep 2019 15:54:50-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加49.0个pid为30商品,总价为49000！
+Thu, 05 Sep 2019 15:54:50-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 15:54:50-common.record_log-cartPage.py-[line:48]-INFO-[日志信息]: 询价按钮可以点击！
+Thu, 05 Sep 2019 15:54:50-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 15:54:50-common.record_log-test_cart.py-[line:32]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试通过
+Thu, 05 Sep 2019 15:54:50-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 15:54:50-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 15:54:50-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 15:54:50-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 15:54:50-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 15:54:51-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=50.0
+Thu, 05 Sep 2019 15:54:51-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为30商品,总价为50000！
+Thu, 05 Sep 2019 15:54:51-common.record_log-cartPage.py-[line:38]-INFO-[日志信息]: 竞价按钮可以点击！
+Thu, 05 Sep 2019 15:54:51-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 15:54:51-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 15:54:51-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 15:54:52-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 15:54:52-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 15:54:52-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 15:54:52-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 15:54:52-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 15:54:52-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=200.0
+Thu, 05 Sep 2019 15:54:52-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加200.0个pid为30商品,总价为200000！
+Thu, 05 Sep 2019 15:54:52-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 15:54:52-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 15:54:52-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 15:54:52-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 15:54:53-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 15:54:53-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 15:54:53-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 15:54:54-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 15:54:54-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 15:54:55-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=190.0
+Thu, 05 Sep 2019 15:54:55-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加190.0个pid为30商品,总价为190000！
+Thu, 05 Sep 2019 15:54:55-common.record_log-cartPage.py-[line:38]-INFO-[日志信息]: 竞价按钮可以点击！
+Thu, 05 Sep 2019 15:54:55-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 15:54:55-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 15:54:55-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 15:54:56-common.record_log-conftest.py-[line:76]-INFO-[日志信息]: ------------close browser------------
+Thu, 05 Sep 2019 16:13:07-common.record_log-conftest.py-[line:69]-INFO-[日志信息]: ------------open browser------------
+Thu, 05 Sep 2019 16:13:10-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:13:10-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:13:10-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:13:10-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:13:10-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:13:12-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=49.0
+Thu, 05 Sep 2019 16:13:12-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加49.0个pid为30商品,总价为49000！
+Thu, 05 Sep 2019 16:13:12-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:13:12-common.record_log-cartPage.py-[line:48]-INFO-[日志信息]: 询价按钮可以点击！
+Thu, 05 Sep 2019 16:13:12-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:13:12-common.record_log-test_cart.py-[line:32]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试通过
+Thu, 05 Sep 2019 16:13:16-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:13:16-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:13:16-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:13:16-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:13:16-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:13:17-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=50.0
+Thu, 05 Sep 2019 16:13:17-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为30商品,总价为50000！
+Thu, 05 Sep 2019 16:13:17-common.record_log-cartPage.py-[line:38]-INFO-[日志信息]: 竞价按钮可以点击！
+Thu, 05 Sep 2019 16:13:17-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:13:17-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:13:17-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:13:18-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:13:18-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:13:18-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:13:18-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:13:18-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:13:18-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=200.0
+Thu, 05 Sep 2019 16:13:18-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加200.0个pid为30商品,总价为200000！
+Thu, 05 Sep 2019 16:13:19-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:13:19-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:13:19-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:13:19-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:13:19-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:13:19-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:13:19-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:13:19-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:13:20-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:13:20-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=190.0
+Thu, 05 Sep 2019 16:13:20-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加190.0个pid为30商品,总价为190000！
+Thu, 05 Sep 2019 16:13:20-common.record_log-cartPage.py-[line:38]-INFO-[日志信息]: 竞价按钮可以点击！
+Thu, 05 Sep 2019 16:13:20-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:13:20-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:13:20-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:13:21-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:13:21-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:13:21-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:13:21-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:13:21-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:13:22-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=20.0
+Thu, 05 Sep 2019 16:13:22-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为30商品,总价为20000！
+Thu, 05 Sep 2019 16:13:23-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=20.0
+Thu, 05 Sep 2019 16:13:23-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为31商品,总价为20000！
+Thu, 05 Sep 2019 16:13:30-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=9.0
+Thu, 05 Sep 2019 16:13:30-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加9.0个pid为32商品,总价为9000！
+Thu, 05 Sep 2019 16:13:30-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:13:30-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:13:30-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:13:30-common.record_log-test_cart.py-[line:55]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试通过
+Thu, 05 Sep 2019 16:13:30-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:13:30-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:13:30-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:13:30-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:13:30-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:13:31-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=20.0
+Thu, 05 Sep 2019 16:13:31-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为30商品,总价为20000！
+Thu, 05 Sep 2019 16:13:31-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=20.0
+Thu, 05 Sep 2019 16:13:31-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为31商品,总价为20000！
+Thu, 05 Sep 2019 16:13:32-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=10.0
+Thu, 05 Sep 2019 16:13:32-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加10.0个pid为32商品,总价为10000！
+Thu, 05 Sep 2019 16:13:32-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:13:32-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:13:32-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:13:32-common.record_log-test_cart.py-[line:50]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:13:33-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:13:33-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:13:33-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:13:33-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:13:33-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:13:33-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=50.0
+Thu, 05 Sep 2019 16:13:33-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为30商品,总价为50000！
+Thu, 05 Sep 2019 16:13:34-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=50.0
+Thu, 05 Sep 2019 16:13:34-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为31商品,总价为50000！
+Thu, 05 Sep 2019 16:13:34-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=50.0
+Thu, 05 Sep 2019 16:13:34-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为32商品,总价为50000！
+Thu, 05 Sep 2019 16:13:34-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:13:34-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:13:34-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:13:34-common.record_log-test_cart.py-[line:50]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:13:35-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:13:35-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:13:35-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:13:35-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:13:35-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:13:37-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=100.0
+Thu, 05 Sep 2019 16:13:37-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加100.0个pid为30商品,总价为100000！
+Thu, 05 Sep 2019 16:13:37-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=50.0
+Thu, 05 Sep 2019 16:13:37-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为31商品,总价为50000！
+Thu, 05 Sep 2019 16:13:37-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=50.0
+Thu, 05 Sep 2019 16:13:37-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为32商品,总价为50000！
+Thu, 05 Sep 2019 16:13:37-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:13:37-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:13:37-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:13:37-common.record_log-test_cart.py-[line:50]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:13:38-common.record_log-conftest.py-[line:76]-INFO-[日志信息]: ------------close browser------------
+Thu, 05 Sep 2019 16:15:53-common.record_log-conftest.py-[line:69]-INFO-[日志信息]: ------------open browser------------
+Thu, 05 Sep 2019 16:15:55-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:15:55-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:15:55-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:15:55-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:15:55-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:15:56-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=49.0
+Thu, 05 Sep 2019 16:15:56-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加49.0个pid为30商品,总价为49000！
+Thu, 05 Sep 2019 16:15:56-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:15:56-common.record_log-cartPage.py-[line:48]-INFO-[日志信息]: 询价按钮可以点击！
+Thu, 05 Sep 2019 16:15:56-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:15:56-common.record_log-test_cart.py-[line:32]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试通过
+Thu, 05 Sep 2019 16:15:57-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:15:57-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:15:57-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:15:57-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:15:57-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:15:59-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=50.0
+Thu, 05 Sep 2019 16:15:59-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为30商品,总价为50000！
+Thu, 05 Sep 2019 16:15:59-common.record_log-cartPage.py-[line:38]-INFO-[日志信息]: 竞价按钮可以点击！
+Thu, 05 Sep 2019 16:15:59-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:15:59-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:15:59-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:16:00-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:16:00-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:16:00-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:16:00-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:16:00-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:16:01-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=200.0
+Thu, 05 Sep 2019 16:16:01-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加200.0个pid为30商品,总价为200000！
+Thu, 05 Sep 2019 16:16:01-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:16:01-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:16:01-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:16:01-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:16:05-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:16:05-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:16:05-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:16:05-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:16:05-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:16:05-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=190.0
+Thu, 05 Sep 2019 16:16:05-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加190.0个pid为30商品,总价为190000！
+Thu, 05 Sep 2019 16:16:05-common.record_log-cartPage.py-[line:38]-INFO-[日志信息]: 竞价按钮可以点击！
+Thu, 05 Sep 2019 16:16:05-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:16:06-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:16:06-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:16:06-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:16:06-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:16:06-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:16:07-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:16:07-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:16:10-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=20.0
+Thu, 05 Sep 2019 16:16:10-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为30商品,总价为20000！
+Thu, 05 Sep 2019 16:16:10-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=20.0
+Thu, 05 Sep 2019 16:16:10-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为31商品,总价为20000！
+Thu, 05 Sep 2019 16:16:11-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=9.0
+Thu, 05 Sep 2019 16:16:11-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加9.0个pid为32商品,总价为9000！
+Thu, 05 Sep 2019 16:16:11-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:16:11-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:16:11-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:16:11-common.record_log-test_cart.py-[line:55]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试通过
+Thu, 05 Sep 2019 16:16:13-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:16:13-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:16:13-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:16:13-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:16:13-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:16:14-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=20.0
+Thu, 05 Sep 2019 16:16:14-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为30商品,总价为20000！
+Thu, 05 Sep 2019 16:16:14-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=20.0
+Thu, 05 Sep 2019 16:16:14-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为31商品,总价为20000！
+Thu, 05 Sep 2019 16:16:15-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=10.0
+Thu, 05 Sep 2019 16:16:15-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加10.0个pid为32商品,总价为10000！
+Thu, 05 Sep 2019 16:16:15-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:16:15-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:16:15-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:16:15-common.record_log-test_cart.py-[line:55]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试通过
+Thu, 05 Sep 2019 16:16:15-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:16:15-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:16:15-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:16:15-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:16:15-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:16:16-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=50.0
+Thu, 05 Sep 2019 16:16:16-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为30商品,总价为50000！
+Thu, 05 Sep 2019 16:16:16-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=50.0
+Thu, 05 Sep 2019 16:16:16-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为31商品,总价为50000！
+Thu, 05 Sep 2019 16:16:16-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=50.0
+Thu, 05 Sep 2019 16:16:16-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为32商品,总价为50000！
+Thu, 05 Sep 2019 16:16:17-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:16:17-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:16:17-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:16:17-common.record_log-test_cart.py-[line:50]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:16:17-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:16:17-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:16:17-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:16:18-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:16:18-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:16:18-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=100.0
+Thu, 05 Sep 2019 16:16:18-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加100.0个pid为30商品,总价为100000！
+Thu, 05 Sep 2019 16:16:18-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=50.0
+Thu, 05 Sep 2019 16:16:18-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为31商品,总价为50000！
+Thu, 05 Sep 2019 16:16:19-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=50.0
+Thu, 05 Sep 2019 16:16:19-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为32商品,总价为50000！
+Thu, 05 Sep 2019 16:16:19-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:16:19-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:16:19-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:16:19-common.record_log-test_cart.py-[line:50]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:16:20-common.record_log-conftest.py-[line:76]-INFO-[日志信息]: ------------close browser------------
+Thu, 05 Sep 2019 16:20:37-common.record_log-conftest.py-[line:69]-INFO-[日志信息]: ------------open browser------------
+Thu, 05 Sep 2019 16:20:43-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:20:43-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:20:43-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:20:43-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:20:43-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:20:45-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=49.0
+Thu, 05 Sep 2019 16:20:45-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加49.0个pid为30商品,总价为49000！
+Thu, 05 Sep 2019 16:20:45-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:20:45-common.record_log-cartPage.py-[line:48]-INFO-[日志信息]: 询价按钮可以点击！
+Thu, 05 Sep 2019 16:20:45-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:20:45-common.record_log-test_cart.py-[line:32]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试通过
+Thu, 05 Sep 2019 16:20:46-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:20:46-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:20:46-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:20:46-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:20:46-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:20:47-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=50.0
+Thu, 05 Sep 2019 16:20:47-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为30商品,总价为50000！
+Thu, 05 Sep 2019 16:20:47-common.record_log-cartPage.py-[line:38]-INFO-[日志信息]: 竞价按钮可以点击！
+Thu, 05 Sep 2019 16:20:47-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:20:47-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:20:47-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:20:48-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:20:48-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:20:48-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:20:48-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:20:48-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:20:48-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=200.0
+Thu, 05 Sep 2019 16:20:48-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加200.0个pid为30商品,总价为200000！
+Thu, 05 Sep 2019 16:20:48-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:20:48-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:20:48-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:20:48-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:20:49-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:20:49-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:20:49-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:20:49-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:20:49-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:20:50-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=190.0
+Thu, 05 Sep 2019 16:20:50-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加190.0个pid为30商品,总价为190000！
+Thu, 05 Sep 2019 16:20:50-common.record_log-cartPage.py-[line:38]-INFO-[日志信息]: 竞价按钮可以点击！
+Thu, 05 Sep 2019 16:20:50-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:20:50-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:20:50-common.record_log-test_cart.py-[line:27]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:20:51-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:20:51-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:20:51-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:20:51-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:20:51-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:20:52-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=20.0
+Thu, 05 Sep 2019 16:20:52-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为30商品,总价为20000！
+Thu, 05 Sep 2019 16:20:52-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=20.0
+Thu, 05 Sep 2019 16:20:52-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为31商品,总价为20000！
+Thu, 05 Sep 2019 16:20:53-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=9.0
+Thu, 05 Sep 2019 16:20:53-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加9.0个pid为32商品,总价为9000！
+Thu, 05 Sep 2019 16:20:53-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:20:53-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:20:53-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:20:53-common.record_log-test_cart.py-[line:55]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试通过
+Thu, 05 Sep 2019 16:20:53-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:20:53-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:20:53-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:20:53-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:20:53-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:20:54-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=20.0
+Thu, 05 Sep 2019 16:20:54-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为30商品,总价为20000！
+Thu, 05 Sep 2019 16:20:54-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=20.0
+Thu, 05 Sep 2019 16:20:54-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加20.0个pid为31商品,总价为20000！
+Thu, 05 Sep 2019 16:20:54-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=10.0
+Thu, 05 Sep 2019 16:20:54-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加10.0个pid为32商品,总价为10000！
+Thu, 05 Sep 2019 16:20:54-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:20:55-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:20:55-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:20:55-common.record_log-test_cart.py-[line:55]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试通过
+Thu, 05 Sep 2019 16:20:55-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:20:55-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:20:55-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:20:55-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:20:55-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:20:55-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=50.0
+Thu, 05 Sep 2019 16:20:55-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为30商品,总价为50000！
+Thu, 05 Sep 2019 16:20:56-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=50.0
+Thu, 05 Sep 2019 16:20:56-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为31商品,总价为50000！
+Thu, 05 Sep 2019 16:20:56-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=50.0
+Thu, 05 Sep 2019 16:20:56-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为32商品,总价为50000！
+Thu, 05 Sep 2019 16:20:56-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:20:56-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:20:56-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:20:56-common.record_log-test_cart.py-[line:50]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:20:57-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:20:57-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:20:57-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:20:57-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:20:57-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:20:58-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/30?num=100.0
+Thu, 05 Sep 2019 16:20:58-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加100.0个pid为30商品,总价为100000！
+Thu, 05 Sep 2019 16:20:58-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/31?num=50.0
+Thu, 05 Sep 2019 16:20:58-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为31商品,总价为50000！
+Thu, 05 Sep 2019 16:20:59-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/cart/change/32?num=50.0
+Thu, 05 Sep 2019 16:20:59-common.record_log-cartPage.py-[line:24]-INFO-[日志信息]: 购物车已添加50.0个pid为32商品,总价为50000！
+Thu, 05 Sep 2019 16:20:59-common.record_log-cartPage.py-[line:35]-INFO-[日志信息]: 竞价按钮不可点击！
+Thu, 05 Sep 2019 16:20:59-common.record_log-cartPage.py-[line:45]-INFO-[日志信息]: 询价按钮不可点击！
+Thu, 05 Sep 2019 16:20:59-common.record_log-cartPage.py-[line:58]-INFO-[日志信息]: 直购按钮可以点击！
+Thu, 05 Sep 2019 16:20:59-common.record_log-test_cart.py-[line:50]-INFO-[日志信息]: 测试用例test_cart_one_noservice_product测试失败
+直购按钮状态不符合预期
+assert True == False
+  -True
+  +False
+Thu, 05 Sep 2019 16:21:00-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:21:00-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:21:00-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:21:00-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:21:00-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:21:00-common.record_log-inquiryEditPage.py-[line:23]-INFO-[日志信息]: ----进入询价页面,询价项目总价为50000元！----
+Thu, 05 Sep 2019 16:21:01-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/inquiry_projects/new?p_id=32&num=50&back=undefined&sign=true
+Thu, 05 Sep 2019 16:21:01-common.record_log-inquiryEditPage.py-[line:35]-INFO-[日志信息]: 输入联系手机、收货日期、产品要求、支付方式
+Thu, 05 Sep 2019 16:21:01-common.record_log-inquiryEditPage.py-[line:42]-INFO-[日志信息]: 输入预算总金额：48000
+Thu, 05 Sep 2019 16:21:01-common.record_log-inquiryEditPage.py-[line:46]-INFO-[日志信息]: 点击发布按钮
+Thu, 05 Sep 2019 16:21:01-common.record_log-inquiryEditPage.py-[line:52]-INFO-[日志信息]: 弹框提示文字为:询价项目采购总金额需要小于5万元！
+Thu, 05 Sep 2019 16:21:01-common.record_log-inquiryEditPage.py-[line:62]-INFO-[日志信息]: Alert弹框已确认！
+Thu, 05 Sep 2019 16:21:01-common.record_log-test_inquiry.py-[line:33]-INFO-[日志信息]: 测试用例test_inquiry_50000测试通过
+Thu, 05 Sep 2019 16:21:01-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:21:01-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:21:01-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:21:02-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:21:02-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:21:02-common.record_log-inquiryEditPage.py-[line:27]-INFO-[日志信息]: ----进入询价页面,询价项目总价为49000元！----
+Thu, 05 Sep 2019 16:21:02-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/inquiry_projects/new?p_id=32&num=49&back=undefined&sign=true
+Thu, 05 Sep 2019 16:21:02-common.record_log-inquiryEditPage.py-[line:35]-INFO-[日志信息]: 输入联系手机、收货日期、产品要求、支付方式
+Thu, 05 Sep 2019 16:21:03-common.record_log-inquiryEditPage.py-[line:42]-INFO-[日志信息]: 输入预算总金额：49001
+Thu, 05 Sep 2019 16:21:03-common.record_log-inquiryEditPage.py-[line:46]-INFO-[日志信息]: 点击发布按钮
+Thu, 05 Sep 2019 16:21:03-common.record_log-inquiryEditPage.py-[line:52]-INFO-[日志信息]: 弹框提示文字为:预算总金额不得大于询价项目采购总金额！
+Thu, 05 Sep 2019 16:21:03-common.record_log-inquiryEditPage.py-[line:62]-INFO-[日志信息]: Alert弹框已确认！
+Thu, 05 Sep 2019 16:21:03-common.record_log-test_inquiry.py-[line:54]-INFO-[日志信息]: 测试用例test_inquiry_49000测试通过
+Thu, 05 Sep 2019 16:21:03-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:21:03-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:21:03-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:21:03-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:21:03-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:21:04-common.record_log-inquiryEditPage.py-[line:27]-INFO-[日志信息]: ----进入询价页面,询价项目总价为49000元！----
+Thu, 05 Sep 2019 16:21:04-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/inquiry_projects/new?p_id=32&num=49&back=undefined&sign=true
+Thu, 05 Sep 2019 16:21:04-common.record_log-inquiryEditPage.py-[line:35]-INFO-[日志信息]: 输入联系手机、收货日期、产品要求、支付方式
+Thu, 05 Sep 2019 16:21:04-common.record_log-inquiryEditPage.py-[line:42]-INFO-[日志信息]: 输入预算总金额：47999.99
+Thu, 05 Sep 2019 16:21:05-common.record_log-inquiryEditPage.py-[line:46]-INFO-[日志信息]: 点击发布按钮
+Thu, 05 Sep 2019 16:21:05-common.record_log-inquiryEditPage.py-[line:62]-INFO-[日志信息]: Alert弹框已确认！
+Thu, 05 Sep 2019 16:21:05-common.record_log-base.py-[line:229]-INFO-[日志信息]: 获取元素文本内容:操作成功！询价创建成功!
+Thu, 05 Sep 2019 16:21:05-common.record_log-inquiryEditPage.py-[line:57]-INFO-[日志信息]: 询价发布成功提示信息为:操作成功！询价创建成功!
+Thu, 05 Sep 2019 16:21:05-common.record_log-test_inquiry.py-[line:75]-INFO-[日志信息]: 测试用例test_inquiry_success测试通过
+Thu, 05 Sep 2019 16:21:05-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:21:05-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:21:05-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:21:05-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:21:05-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:21:06-common.record_log-inquiryEditPage.py-[line:31]-INFO-[日志信息]: ----进入询价页面,询价项目总价为49000元,可报价供应商不足1家！----
+Thu, 05 Sep 2019 16:21:06-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/inquiry_projects/new?p_id=38&num=49&back=undefined&sign=true
+Thu, 05 Sep 2019 16:21:06-common.record_log-inquiryEditPage.py-[line:35]-INFO-[日志信息]: 输入联系手机、收货日期、产品要求、支付方式
+Thu, 05 Sep 2019 16:21:07-common.record_log-inquiryEditPage.py-[line:42]-INFO-[日志信息]: 输入预算总金额：47999.99
+Thu, 05 Sep 2019 16:21:07-common.record_log-inquiryEditPage.py-[line:46]-INFO-[日志信息]: 点击发布按钮
+Thu, 05 Sep 2019 16:21:07-common.record_log-inquiryEditPage.py-[line:52]-INFO-[日志信息]: 弹框提示文字为:拥有该项目报价权限的供应商不足1家，无法发起询价!
+Thu, 05 Sep 2019 16:21:07-common.record_log-inquiryEditPage.py-[line:62]-INFO-[日志信息]: Alert弹框已确认！
+Thu, 05 Sep 2019 16:21:07-common.record_log-test_inquiry.py-[line:96]-INFO-[日志信息]: 测试用例test_inquiry_fail测试通过
+Thu, 05 Sep 2019 16:21:07-common.record_log-base.py-[line:38]-INFO-[日志信息]: 加载测试地址:http://tzagriculture.test.al8l.com/login.html
+Thu, 05 Sep 2019 16:21:07-common.record_log-loginPage.py-[line:17]-INFO-[日志信息]: 开始登录
+Thu, 05 Sep 2019 16:21:07-common.record_log-loginPage.py-[line:26]-INFO-[日志信息]: 输入用户名:tz_cgr
+Thu, 05 Sep 2019 16:21:07-common.record_log-loginPage.py-[line:30]-INFO-[日志信息]: 输入密码:12345678
+Thu, 05 Sep 2019 16:21:07-common.record_log-loginPage.py-[line:34]-INFO-[日志信息]: 点击登录按钮
+Thu, 05 Sep 2019 16:21:08-common.record_log-base.py-[line:229]-INFO-[日志信息]: 获取元素文本内容:【退出】
+Thu, 05 Sep 2019 16:21:08-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 获取登录成功断言信息:【退出】
+Thu, 05 Sep 2019 16:21:08-common.record_log-test_login.py-[line:34]-INFO-[日志信息]: 测试用例test_login_success-tz_cgr-12345678测试通过
+Thu, 05 Sep 2019 16:21:08-common.record_log-conftest.py-[line:76]-INFO-[日志信息]: ------------close browser------------
