@@ -10,12 +10,14 @@ class InquiryEditPage(Base):
     locator = ParseConfig(LOCATOR_PATH)
     inquiry_url_50000 = locator('TestUrl', 'inquiry_url_50000')
     inquiry_url_49000 = locator('TestUrl', 'inquiry_url_49000')
+    inquiry_url_fail = locator('TestUrl', 'inquiry_url_fail')
     phone = locator('InquiryPage', 'phone')
     date = locator('InquiryPage', 'date')
     pay = locator('InquiryPage', 'pay')
     budget = locator('InquiryPage', 'budget')
     note = locator('InquiryPage', 'note')
     publish = locator('InquiryPage', 'publish')
+    success_info = locator('InquiryPage', 'success_info')
 
     def open_url_50000(self):
         self.logger.info("----进入询价页面,询价项目总价为50000元！----")
@@ -24,6 +26,10 @@ class InquiryEditPage(Base):
     def open_url_49000(self):
         self.logger.info("----进入询价页面,询价项目总价为49000元！----")
         self.open(self.inquiry_url_49000)
+
+    def open_url_fail(self):
+        self.logger.info("----进入询价页面,询价项目总价为49000元,可报价供应商不足1家！----")
+        self.open(self.inquiry_url_fail)
 
     def input_message(self,Phone,Date,Note):
         self.logger.info("输入联系手机、收货日期、产品要求、支付方式")
@@ -44,6 +50,11 @@ class InquiryEditPage(Base):
     def get_alert_info(self):
         value = self.get_alert_text
         self.logger.info("弹框提示文字为:{}".format(value))
+        return value
+
+    def get_success_info(self):
+        value = self.get_element_text(*self.success_info)
+        self.logger.info("询价发布成功提示信息为:{}".format(value))
         return value
 
     def driver_accept_alert(self):

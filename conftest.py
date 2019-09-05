@@ -3,6 +3,7 @@ import pytest
 from datetime import datetime
 from pages.loginPage import LoginPage
 from pages.inquiryEditPage import InquiryEditPage
+from pages.cartPage import CartPage
 from selenium import webdriver
 from py._xmlgen import html
 from common.record_log import logger
@@ -79,7 +80,8 @@ def driver():
 def ini_pages(driver):
     login_page = LoginPage(driver)
     inquiryEditPage = InquiryEditPage(driver)
-    yield driver, login_page,inquiryEditPage
+    cart_page = CartPage(driver)
+    yield driver, login_page,inquiryEditPage,cart_page
 
 # test_login.py调用
 @pytest.fixture(scope='function')
@@ -94,10 +96,10 @@ def open_url(ini_pages):
 # test_login.py调用
 @pytest.fixture(scope='function')
 def login_cgr(ini_pages):
-    driver, login_page, inquiryEditPage= ini_pages
+    driver, login_page, inquiryEditPage,cart_page= ini_pages
     login_page.open_url()
     login_page.login("tz_cgr","12345678")
-    yield login_page,inquiryEditPage
+    yield login_page,inquiryEditPage,cart_page
     driver.delete_all_cookies()
 #
 #
